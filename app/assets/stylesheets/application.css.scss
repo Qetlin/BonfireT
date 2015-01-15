@@ -17,9 +17,10 @@ p { font-size: 1.3em; color: #323232;}
 .title h1 {border-top: 5px solid #e6535f; padding: 30px; font-size: 3em; text-align: center;}
 .text {padding: 0 65px;}
 .text p {text-align: justify; line-height: 1.7em;}
-.social { }
-.social div { display: flex; justify-content: flex-end;  }
-.social div div {border-radius: 50%; width: 40px; height: 40px; background-color: #fff; padding: 11px; margin-top: 20px; }
+.social {display: flex; height: 500px; flex-flow: column;}
+.social .spacer{flex: auto;}
+.social .social-icon {flex: none; border-radius: 50%; width: 40px; height: 40px; background-color: #fff; padding: 11px; margin-top: 20px; text-align: right;}
+.social .social-icon img {float: right;}
 .form {background: #474747; padding: 30px; border-radius: 3px; }
 .form input{width: 100%;}
 .form h2, .form h3, .form h4 {text-transform: uppercase; color: #fff; text-align: center;}
